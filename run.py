@@ -23,3 +23,16 @@ for word in required_words:
         return int(percentage * 100)
     else:
         return 0
+
+def check_all_messages(message):
+    highest_prob_list = {}
+
+#Response creation / adds
+ def response(bot_response, list_of_words, single_response=False, required_words=[]):
+        nonlocal highest_prob_list
+        highest_prob_list[bot_response] = message_probability(message, list_of_words, single_response, required_words)
+
+ response('Hello!', ['hello', 'hi', 'hey', 'sup', 'heyo'], single_response=True)
+ response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
+ response()
+ 
