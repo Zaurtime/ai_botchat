@@ -32,7 +32,19 @@ def check_all_messages(message):
         nonlocal highest_prob_list
         highest_prob_list[bot_response] = message_probability(message, list_of_words, single_response, required_words)
 
- response('Hello!', ['hello', 'hi', 'hey', 'sup', 'heyo'], single_response=True)
- response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
- response()
- 
+response('Hello!', ['hello', 'hi', 'hey', 'sup', 'heyo'], single_response=True)
+response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
+response()
+response()
+response()
+response()
+response()
+response()
+response()
+response() 
+
+# Longer responses
+response()
+response()
+response()
+
