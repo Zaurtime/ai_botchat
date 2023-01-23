@@ -12,3 +12,14 @@ for word in user_message:
 
 # Calculates the percent
 percentage = float(message_certainty) / float(len(recognised_words))
+
+#Check strings
+for word in required_words:
+        if word not in user_message:
+            has_required_words = False
+            break
+
+ if has_required_words or single_response:
+        return int(percentage * 100)
+    else:
+        return 0
