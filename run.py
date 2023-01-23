@@ -43,9 +43,9 @@ def check_all_messages(message):
     response('Thank you!', ['i', 'love', 'code', 'palace'], required_words=['code', 'palace'])
     response('It is rainy"!', ['weather', 'rain', 'windy'], required_words=['weather', 'rain'])
     response('Code Institute projects', ['study', 'learn' , 'code' , 'project'], required_words=['study', 'project'])
-    response('Mitsubishi ASX', ['car', 'drive',] recognised_words=['car'])
+    response('Mitsubishi ASX', ['car', 'drive'], required_words=['car'])
     response('Google map check', ['location', 'where', 'far','near'], required_words=['location', 'where'])
-    response('Everest Mountain', ['mountain', 'highest', 'top'], recognised_words=['highest', 'top'])
+    response('Everest Mountain', ['mountain', 'highest', 'top'], required_words=['highest', 'top'])
     # Longer responses
     response(long.R_ADVICE, ['give', 'advice', 'search'], required_words=['advice', 'search'])
     response(long.R_EATING, ['what', 'you', 'eat'], required_words=['you', 'eat'])
