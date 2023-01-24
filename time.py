@@ -13,3 +13,6 @@ def time():
 
 label = Label(root, font=("ds-digital",77), background = "black", foreground = "green")
 label.pack(anchor='center')
+time()
+
+mainloop()
