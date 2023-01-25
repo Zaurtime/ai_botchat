@@ -1,6 +1,20 @@
 import re
 import long_responses as long
-from time import time
+from tkinter import *
+from tkinter.ttk import *
+from time import strftime 
+
+root = Tk()
+root.title("Clock")
+
+def time():
+    string = strftime('%H:%M:%S %p')
+    label.config(text=string)
+    label.after(1000, time)
+
+label = Label(root, font=("ds-digital",77), background = "black", foreground = "white")
+label.pack(anchor='center')
+time()
 
 
 def message_probability(user_message, recognised_words, single_response=False, required_words=[]):
@@ -42,14 +56,14 @@ def check_all_messages(message):
     response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
     response('You\'re welcome!', ['thank', 'thanks'], single_response=True)
     response('Thank you!', ['i', 'love', 'code', 'palace'], required_words=['code', 'palace'])
-    response('It is rainy"!', ['weather', 'rain', 'windy'], required_words=['weather', 'rain'])
-    response('Code Institute projects', ['study', 'learn' , 'code' , 'project'], required_words=['study', 'project'])
+    response('It is rainy!', ['weather', 'rain', 'windy'], required_words=['weather',])
+    response('Code Institute projects', ['study', 'learn' , 'code' , 'project'], required_words=['project'])
     response('Mitsubishi ASX', ['car', 'drive'], required_words=['car'])
-    response('Google map check', ['location', 'where', 'far','near'], required_words=['location', 'where'])
-    response('Everest Mountain', ['mountain', 'highest', 'top'], required_words=['highest', 'top'])
+    response('Google map check', ['location', 'where', 'far','near'], required_words=['location'])
+    response('Everest Mountain', ['mountain', 'highest', 'top'], required_words=['top'])
     # Longer responses
-    response(long.R_ADVICE, ['give', 'advice', 'search'], required_words=['advice', 'search'])
-    response(long.R_EATING, ['what', 'you', 'eat'], required_words=['you', 'eat'])
+    response(long.R_ADVICE, ['give', 'advice', 'search'], required_words=['advice'])
+    response(long.R_EATING, ['what', 'you', 'eat'], required_words=['eat'])
 
     best_match = max(highest_prob_list, key=highest_prob_list.get)
     # print(highest_prob_list)
@@ -67,3 +81,5 @@ def get_response(user_input):
 # Testing the response system
 while True:
     print('Bot: ' + get_response(input('You: ')))
+
+mainloop()
