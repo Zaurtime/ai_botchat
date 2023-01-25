@@ -1,6 +1,6 @@
 import re
 import long_responses as long
-import time
+from time import time
 
 
 def message_probability(user_message, recognised_words, single_response=False, required_words=[]):
