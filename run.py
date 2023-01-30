@@ -39,7 +39,7 @@ def check_all_messages(message):
     
     response('Hello!', ['hello', 'hi', 'hey', 'sup', 'heyo'], single_response=True)
     response('See you!', ['bye', 'goodbye'], single_response=True)
-    response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
+    response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], single_response=True)
     response('You\'re welcome!', ['thank', 'thanks'], single_response=True)
     response('Thank you!', ['i', 'love', 'code', 'palace'], required_words=['code', 'palace'])
     response('It is rainy!', ['weather', 'rain', 'windy'], required_words=['weather',])
@@ -47,11 +47,38 @@ def check_all_messages(message):
     response('Mitsubishi ASX', ['car', 'drive'], required_words=['car'])
     response('Google map check', ['location', 'where', 'far','near'], required_words=['location'])
     response('Everest Mountain', ['mountain', 'highest', 'top'], required_words=['top'])
+    response('Seat belt fastened', ['belt', 'adjust'], required_words=['belt'])
+    response('Brake hard', ['brake', 'stop', 'broken'], single_response=True)
+    response('Opened please check', ['trunk', 'frunk', 'hood', 'window'],single_response=True)
+    
+    
+    
     # Longer responses
     response(long.R_ADVICE, ['give', 'advice', 'search'], required_words=['advice'])
     response(long.R_EATING, ['what', 'you', 'eat'], required_words=['eat'])
-    response(long.R_START, ['start', 'power', 'go' , 'move'], required_words=['start'])
+    response(long.R_START, ['start', 'power', 'go' , 'move'], single_response=True)
+    response(long.R_LIGHTS, ['light', 'beam', 'bright'], single_response=True)
+    response(long.R_MUSIC, ['music', 'sound'], single_response=True)
+    response(long.R_NAV, ['navigation', 'navigate', 'map'], single_response=True)
+    response(long.R_AC, ['a/c', 'cool', 'warm'], single_response=True)
+    response(long.R_PILOT, ['auto-pilot', 'pilot'], single_response=True)
+    response(long.R_PARK, ['parking', 'park'], single_response=True)
+    response(long.R_HORN, ['horn', 'press-horn'], single_response=True)
+    response(long.R_CONSUMPTION, ['consumtion', 'fuel'], single_response=True)
+    response(long.R_CH, ['charging', 'charge'], single_response=True)
+    response(long.R_SPEED, ['speed', 'fast'], single_response=True)
+    response(long.R_MANUAL, ['manual', 'gear'], single_response=True)
+    response(long.R_RADIO, ['radio', 'fm'], single_response=True)
+    response(long.R_CAMERA, ['camera', 'record'], single_response=True)
+    response(long.R_MOB, ['mobile-app', 'mobile'], single_response=True)
+    response(long.R_BLUETOOTH, ['bluetooth', 'connect'], single_response=True)
+    response(long.R_DOORS, ['door', 'doors'], single_response=True)
+    response(long.R_CLOSE, ['close', 'lock'], single_response=True)
+    response(long.R_WIPER, ['wiper', 'wipe'], single_response=True)
+    
 
+
+ 
     best_match = max(highest_prob_list, key=highest_prob_list.get)
     # print(highest_prob_list)
 
