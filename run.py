@@ -1,20 +1,6 @@
 import re
 import long_responses as long
-from tkinter import *
-from tkinter.ttk import *
-from time import strftime 
 
-root = Tk()
-root.title("Clock")
-
-def time():
-    string = strftime('%H:%M:%S %p')
-    label.config(text=string)
-    label.after(1000, time)
-
-label = Label(root, font=("ds-digital",77), background = "black", foreground = "white")
-label.pack(anchor='center')
-time()
 
 
 def message_probability(user_message, recognised_words, single_response=False, required_words=[]):
@@ -64,6 +50,7 @@ def check_all_messages(message):
     # Longer responses
     response(long.R_ADVICE, ['give', 'advice', 'search'], required_words=['advice'])
     response(long.R_EATING, ['what', 'you', 'eat'], required_words=['eat'])
+    response(long.R_START, ['start', 'power', 'go' , 'move'], required_words=['start'])
 
     best_match = max(highest_prob_list, key=highest_prob_list.get)
     # print(highest_prob_list)
@@ -82,4 +69,3 @@ def get_response(user_input):
 while True:
     print('Bot: ' + get_response(input('You: ')))
 
-mainloop()
