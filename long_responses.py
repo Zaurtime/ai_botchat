@@ -21,7 +21,7 @@ R_BLUETOOTH = "Connecting bluetooth device and updating all mobile apps"
 R_DOORS = "Door open be careful "
 R_CLOSE = "The Car is locked and anti-theft future responsible for protection"
 R_WIPER = "The wiper blade works and the glass is almost clean"
-
+R_STOP = "Your Autonomous Vehicle has stopped and AI wish you 'Good luck'"
 
 def unknown():
     response = ["Could you please re-phrase that? ",

@@ -1,7 +1,17 @@
 import re
 import long_responses as long
 
-
+print(
+    """
+    
+╭━━━╮╱╱╭╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╮╱╱╭╮╱╭╮╱╱╱╱╱╭╮╱╱╱╱╭━━╮╱╱╱╭╮╱╭━━━┳━━╮
+┃╭━╮┃╱╭╯╰╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱┃╰╮╭╯┃╱┃┃╱╱╱╱╱┃┃╱╱╱╱┃╭╮┃╱╱╭╯╰╮┃╭━╮┣┫┣╯
+┃┃╱┃┣╮┣╮╭╋━━┳━╮╭━━┳╮╭┳━━┳╮╭┳━━╮╰╮┃┃╭┻━┫╰━┳┳━━┫┃╭━━╮┃╰╯╰┳━┻╮╭╯┃┃╱┃┃┃┃
+┃╰━╯┃┃┃┃┃┃╭╮┃╭╮┫╭╮┃╰╯┃╭╮┃┃┃┃━━┫╱┃╰╯┃┃━┫╭╮┣┫╭━┫┃┃┃━┫┃╭━╮┃╭╮┃┃╱┃╰━╯┃┃┃
+┃╭━╮┃╰╯┃╰┫╰╯┃┃┃┃╰╯┃┃┃┃╰╯┃╰╯┣━━┃╱╰╮╭┫┃━┫┃┃┃┃╰━┫╰┫┃━┫┃╰━╯┃╰╯┃╰╮┃╭━╮┣┫┣╮
+╰╯╱╰┻━━┻━┻━━┻╯╰┻━━┻┻┻┻━━┻━━┻━━╯╱╱╰╯╰━━┻╯╰┻┻━━┻━┻━━╯╰━━━┻━━┻━╯╰╯╱╰┻━━╯
+    """
+)
 
 def message_probability(user_message, recognised_words, single_response=False, required_words=[]):
     message_certainty = 0
@@ -56,8 +66,8 @@ def check_all_messages(message):
     # Longer responses
     response(long.R_ADVICE, ['give', 'advice', 'search'], required_words=['advice'])
     response(long.R_EATING, ['what', 'you', 'eat'], required_words=['eat'])
-    response(long.R_START, ['start', 'power', 'go' , 'move'], single_response=True)
-    response(long.R_LIGHTS, ['light', 'beam', 'bright'], single_response=True)
+    response(long.R_START, ['start', 'power', 'go' , 'move', 'drive'], single_response=True)
+    response(long.R_LIGHTS, ['light', 'beam', 'bright', 'lights'], single_response=True)
     response(long.R_MUSIC, ['music', 'sound'], single_response=True)
     response(long.R_NAV, ['navigation', 'navigate', 'map'], single_response=True)
     response(long.R_AC, ['a/c', 'cool', 'warm'], single_response=True)
@@ -75,6 +85,7 @@ def check_all_messages(message):
     response(long.R_DOORS, ['door', 'doors'], single_response=True)
     response(long.R_CLOSE, ['close', 'lock'], single_response=True)
     response(long.R_WIPER, ['wiper', 'wipe'], single_response=True)
+    response(long.R_STOP, ['stop', 'end'], single_response=True)
     
 
 
@@ -92,7 +103,11 @@ def get_response(user_input):
     return response
 
 
-# Testing the response system
-while True:
-    print('Bot: ' + get_response(input('You: ')))
+def main():
+    # Testing the response system
+    print("I'm an Autonomous Vehicle Bot AI !Are you ready to Start the trip?")
+    while True:
+        print('Bot: ' + get_response(input('You: ')))
 
+
+main()
