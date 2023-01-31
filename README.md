@@ -1,18 +1,28 @@
-
-╭━━━╮╱╱╭╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╮╱╱╭╮╱╭╮╱╱╱╱╱╭╮╱╱╱╱╭━━╮╱╱╱╭╮╱╭━━━┳━━╮
-┃╭━╮┃╱╭╯╰╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱┃╰╮╭╯┃╱┃┃╱╱╱╱╱┃┃╱╱╱╱┃╭╮┃╱╱╭╯╰╮┃╭━╮┣┫┣╯
-┃┃╱┃┣╮┣╮╭╋━━┳━╮╭━━┳╮╭┳━━┳╮╭┳━━╮╰╮┃┃╭┻━┫╰━┳┳━━┫┃╭━━╮┃╰╯╰┳━┻╮╭╯┃┃╱┃┃┃┃
-┃╰━╯┃┃┃┃┃┃╭╮┃╭╮┫╭╮┃╰╯┃╭╮┃┃┃┃━━┫╱┃╰╯┃┃━┫╭╮┣┫╭━┫┃┃┃━┫┃╭━╮┃╭╮┃┃╱┃╰━╯┃┃┃
-┃╭━╮┃╰╯┃╰┫╰╯┃┃┃┃╰╯┃┃┃┃╰╯┃╰╯┣━━┃╱╰╮╭┫┃━┫┃┃┃┃╰━┫╰┫┃━┫┃╰━╯┃╰╯┃╰╮┃╭━╮┣┫┣╮
-╰╯╱╰┻━━┻━┻━━┻╯╰┻━━┻┻┻┻━━┻━━┻━━╯╱╱╰╯╰━━┻╯╰┻┻━━┻━┻━━╯╰━━━┻━━┻━╯╰╯╱╰┻━━╯
-
-Autonomous Vehicle Bot AI project
+𝔸𝕦𝕥𝕠𝕟𝕠𝕞𝕠𝕦𝕤 𝕍𝕖𝕙𝕚𝕔𝕝𝕖 𝔹𝕠𝕥 𝔸𝕀
+project
 
 
-## Introduction
+# Introduction
 
-*Project milestone 3 for Code Institute Full-stack development program: Python Terminal.
+Project milestone 3 for Code Institute Full-stack development program: Python Terminal.
 Autonomous Vehicle Bot AI is a Python terminal bot, which runs in the Code Institute mock terminal on Heroku. The main goal of Autonomous Vehicle BOT AI is to recognise command and response quickly  in order to drive with comfort and efficiency plus with the word that the computer randomly selects. This project was inspired by The Fifth Element science fiction action film.
+
+[Live Project Here](https://herokuapp.com/)
+
+## User Experience - UX
+
+### User Stories
+
+* As an AI bot creator, I want to:
+  
+1. Build an easy app for the users to chat the bot.
+2. Build an AI bot that is both enjoyable and challenging for the users.
+   
+* As a new autonomous vehicle bot AI owner, I want to:
+
+1. Be able to understand the purpose of the AI chat and start drive a vechicle.
+2. Be able to follow routine interacting daily with the vechicle, see the right letters appear once used right words.
+3. Be able to drive and stop the car and immediatly keep moving forward if it is necessary.
 
 * Your dependencies must be placed in the `requirements.txt` file
 * Do not edit any of the other files or your code may not deploy properly
