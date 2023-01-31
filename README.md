@@ -27,6 +27,18 @@ Autonomous Vehicle Bot AI is a Python terminal bot, which runs in the Code Insti
 * Your dependencies must be placed in the `requirements.txt` file
 * Do not edit any of the other files or your code may not deploy properly
 
+## Features
+
+### Logo and Intro Message
+
+![Logo and Intro Message]()
+
+* When the users reach the website, they will see this feature. The Autonomous Vehicle Bot AI logo and the intro message are displayed here.
+
+### Greeting message
+![ Greeting message]()
+
+* When the users
 ## Creating the Heroku app
 
 When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
