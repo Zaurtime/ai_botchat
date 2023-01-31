@@ -1,12 +1,19 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Zaurtime,
+╭━━━╮╱╱╭╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╮╱╱╭╮╱╭╮╱╱╱╱╱╭╮╱╱╱╱╭━━╮╱╱╱╭╮╱╭━━━┳━━╮
+┃╭━╮┃╱╭╯╰╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱┃╰╮╭╯┃╱┃┃╱╱╱╱╱┃┃╱╱╱╱┃╭╮┃╱╱╭╯╰╮┃╭━╮┣┫┣╯
+┃┃╱┃┣╮┣╮╭╋━━┳━╮╭━━┳╮╭┳━━┳╮╭┳━━╮╰╮┃┃╭┻━┫╰━┳┳━━┫┃╭━━╮┃╰╯╰┳━┻╮╭╯┃┃╱┃┃┃┃
+┃╰━╯┃┃┃┃┃┃╭╮┃╭╮┫╭╮┃╰╯┃╭╮┃┃┃┃━━┫╱┃╰╯┃┃━┫╭╮┣┫╭━┫┃┃┃━┫┃╭━╮┃╭╮┃┃╱┃╰━╯┃┃┃
+┃╭━╮┃╰╯┃╰┫╰╯┃┃┃┃╰╯┃┃┃┃╰╯┃╰╯┣━━┃╱╰╮╭┫┃━┫┃┃┃┃╰━┫╰┫┃━┫┃╰━╯┃╰╯┃╰╮┃╭━╮┣┫┣╮
+╰╯╱╰┻━━┻━┻━━┻╯╰┻━━┻┻┻┻━━┻━━┻━━╯╱╱╰╯╰━━┻╯╰┻┻━━┻━┻━━╯╰━━━┻━━┻━╯╰╯╱╰┻━━╯
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+Autonomous Vehicle Bot AI project
 
-## Reminders
 
-* Your code must be placed in the `run.py` file
+## Introduction
+
+*Project milestone 3 for Code Institute Full-stack development program: Python Terminal.
+Autonomous Vehicle Bot AI is a Python terminal bot, which runs in the Code Institute mock terminal on Heroku. The main goal of Autonomous Vehicle BOT AI is to recognise command and response quickly  in order to drive with comfort and efficiency plus with the word that the computer randomly selects. This project was inspired by The Fifth Element science fiction action film.
+
 * Your dependencies must be placed in the `requirements.txt` file
 * Do not edit any of the other files or your code may not deploy properly
 
