@@ -73,7 +73,7 @@ def check_all_messages(message):
     response(long.R_MUSIC, ['music', 'sound'], single_response=True)
     response(long.R_NAV, ['navigation', 'navigate', 'map'], single_response=True)
     response(long.R_AC, ['a/c', 'cool', 'warm'], single_response=True)
-    response(long.R_PILOT, ['auto-pilot', 'pilot', 'auto', 'auto-pilot'], single_response=True)
+    response(long.R_PILOT, ['auto-pilot', 'pilot', 'auto', 'autopilot'], single_response=True)
     response(long.R_PARK, ['parking', 'park'], single_response=True)
     response(long.R_HORN, ['horn', 'press-horn'], single_response=True)
     response(long.R_CONSUMPTION, ['consumtion', 'fuel'], single_response=True)
@@ -109,7 +109,7 @@ def main():
     # Testing the response system
     print("I'm an Autonomous Vehicle Bot AI: Hello, Are you ready to Start the trip? Please feel free to torn on the music, I can hear you even if you silently say any command. I recently received the Voice Recognition Sensitivity Award 2023! Ask  me  anything")
     while True:
-        print('Bot: ' + get_response(input('You: ')))
+        print('Lamborghini Bot: ' + get_response(input('You: ')))
 
 
 main()
