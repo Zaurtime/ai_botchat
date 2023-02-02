@@ -47,8 +47,8 @@ def check_all_messages(message):
         highest_prob_list[bot_response] = message_probability(message, list_of_words, single_response, required_words)
 
     
-    response('Hello!', ['hello', 'hi', 'hey', 'sup', 'heyo'], single_response=True)
-    response('See you!', ['bye', 'goodbye'], single_response=True)
+    response('Hello!', ['hello', 'hi', 'hey', 'sup', 'heyo', 'yes'], single_response=True)
+    response('See you!', ['bye', 'goodbye', 'no'], single_response=True)
     response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], single_response=True)
     response('You\'re welcome!', ['thank', 'thanks'], single_response=True)
     response('Thank you!', ['i', 'love', 'code', 'palace'], required_words=['code', 'palace'])
@@ -105,7 +105,7 @@ def get_response(user_input):
 
 def main():
     # Testing the response system
-    print("I'm an Autonomous Vehicle Bot AI !Are you ready to Start the trip?")
+    print("I'm an Autonomous Vehicle Bot AI: Hello, Are you ready to Start the trip?Please feel free to torn on the music,I can hear you even if you silently say any command.I recently received the Voice Recognition Sensitivity Award! Ask me anything")
     while True:
         print('Bot: ' + get_response(input('You: ')))
 
