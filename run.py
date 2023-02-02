@@ -107,7 +107,7 @@ def get_response(user_input):
 
 def main():
     # Testing the response system
-    print("I'm an Autonomous Vehicle Bot AI: Hello, Are you ready to Start the trip?Please feel free to torn on the music,I can hear you even if you silently say any command.I recently received the Voice Recognition Sensitivity Award 2023! Ask me anything")
+    print("I'm an Autonomous Vehicle Bot AI: Hello, Are you ready to Start the trip? Please feel free to torn on the music, I can hear you even if you silently say any command. I recently received the Voice Recognition Sensitivity Award 2023! Ask  me  anything")
     while True:
         print('Bot: ' + get_response(input('You: ')))
 
