@@ -51,15 +51,17 @@ def check_all_messages(message):
     response('See you!', ['bye', 'goodbye', 'no'], single_response=True)
     response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], single_response=True)
     response('You\'re welcome!', ['thank', 'thanks'], single_response=True)
-    response('Thank you!', ['i', 'love', 'code', 'palace'], required_words=['code', 'palace'])
+    response('Thank you!', ['i', 'love', 'code', 'palace'], single_response=True)
     response('It is rainy!', ['weather', 'rain', 'windy'], required_words=['weather',])
-    response('Code Institute projects', ['study', 'learn' , 'code' , 'project'], required_words=['project'])
-    response('Mitsubishi ASX', ['car', 'drive'], required_words=['car'])
+    response('Code Institute projects', ['study', 'learn' , 'code' , 'project'], single_response=True)
+    response('Lamborghini ASX', ['car', 'drive'], required_words=['car'])
     response('Google map check', ['location', 'where', 'far','near'], required_words=['location'])
     response('Everest Mountain', ['mountain', 'highest', 'top'], required_words=['top'])
     response('Seat belt fastened', ['belt', 'adjust'], required_words=['belt'])
     response('Brake hard', ['brake', 'stop', 'broken'], single_response=True)
-    response('Opened please check', ['trunk', 'frunk', 'hood', 'window'],single_response=True)
+    response('Opened please check', ['trunk', 'frunk', 'hood', 'window'], single_response=True)
+    response('Reversed without obstacles', ['reverse', 'backside', 'back' ], single_response=True )
+    response('Pressed,what is next?', ['gas', 'clutch', 'accelerator'], single_response=True) 
     
     
     
@@ -71,7 +73,7 @@ def check_all_messages(message):
     response(long.R_MUSIC, ['music', 'sound'], single_response=True)
     response(long.R_NAV, ['navigation', 'navigate', 'map'], single_response=True)
     response(long.R_AC, ['a/c', 'cool', 'warm'], single_response=True)
-    response(long.R_PILOT, ['auto-pilot', 'pilot'], single_response=True)
+    response(long.R_PILOT, ['auto-pilot', 'pilot', 'auto', 'auto-pilot'], single_response=True)
     response(long.R_PARK, ['parking', 'park'], single_response=True)
     response(long.R_HORN, ['horn', 'press-horn'], single_response=True)
     response(long.R_CONSUMPTION, ['consumtion', 'fuel'], single_response=True)
@@ -105,7 +107,7 @@ def get_response(user_input):
 
 def main():
     # Testing the response system
-    print("I'm an Autonomous Vehicle Bot AI: Hello, Are you ready to Start the trip?Please feel free to torn on the music,I can hear you even if you silently say any command.I recently received the Voice Recognition Sensitivity Award! Ask me anything")
+    print("I'm an Autonomous Vehicle Bot AI: Hello, Are you ready to Start the trip?Please feel free to torn on the music,I can hear you even if you silently say any command.I recently received the Voice Recognition Sensitivity Award 2023! Ask me anything")
     while True:
         print('Bot: ' + get_response(input('You: ')))
 
