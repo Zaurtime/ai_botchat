@@ -106,10 +106,21 @@ def get_response(user_input):
 
 
 def main():
-    # Testing the response system
-    print("I'm an Autonomous Vehicle Bot AI: Hello, Are you ready to Start the trip? Please feel free to torn on the music, I can hear you even if you silently say any command. I recently received the Voice Recognition Sensitivity Award 2023! Ask  me  anything")
+    # The response system
+    print("I'm an Autonomous Vehicle Bot AI:I recently received the Voice Recognition Sensitivity Award 2023!Example of communication with me:")
+    print("1.Hi")
+    print("2.Start")
+    print("3.Adjust belt")
+    print("4.Lights on")
+    print("5.Music play")
+    print("6.Location")
+    print("7.Auto-pilot")
+    print("8.Fast")
+    print("9.Manual")
+    print("10.Stop")
+    print("and more related to autonomous car commands")
     while True:
-        print('Lamborghini Bot: ' + get_response(input('You: ')))
+        print('AI Bot: ' + get_response(input('You: ')))
 
 
 main()
