@@ -7,7 +7,7 @@ project
 Project milestone 3 for Code Institute Full-stack development program: Python Terminal.
 Autonomous Vehicle Bot AI is a Python terminal bot, which runs in the Code Institute mock terminal on Heroku. The main goal of Autonomous Vehicle BOT AI is to recognise command and response quickly  in order to drive with comfort and efficiency plus with the word that the computer randomly selects. This project was inspired by The Fifth Element science fiction action film.
 
-[Live Project Here](https://herokuapp.com/)
+[Live Project Here](https://ai-auto.herokuapp.com/)
 
 ## User Experience - UX
 
@@ -24,8 +24,6 @@ Autonomous Vehicle Bot AI is a Python terminal bot, which runs in the Code Insti
 2. Be able to follow routine interacting daily with the vechicle, see the right letters appear once used right words.
 3. Be able to drive and stop the car and immediatly keep moving forward if it is necessary.
 
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
 
 ## Features
 
