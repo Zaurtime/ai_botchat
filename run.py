@@ -17,7 +17,7 @@ def message_probability(user_message, recognised_words, single_response=False, r
     message_certainty = 0
     has_required_words = True
 
-    # Counts how many words are present in each predefined message
+    # Counts how many words are present 
     for word in user_message:
         if word in recognised_words:
             message_certainty += 1
@@ -106,7 +106,7 @@ def get_response(user_input):
 
 
 def main():
-    # The response system
+    # Intro + The response system
     print("I'm an Autonomous Vehicle Bot AI:I recently received the Voice Recognition Sensitivity Award 2023!Example of communication with me:")
     print("1.Hi")
     print("2.Start")
@@ -118,7 +118,7 @@ def main():
     print("8.Fast")
     print("9.Manual")
     print("10.Stop")
-    print("and more related to autonomous car commands")
+    print("and more related to autonomous car commands to type...")
     while True:
         print('AI Bot: ' + get_response(input('You: ')))
 
