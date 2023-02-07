@@ -59,14 +59,38 @@ Autonomous Vehicle Bot AI is a Python terminal bot, which runs in the Code Insti
 
 * When the users
 
-### Greeting message
-![ Greeting message](./images/Greeting.png)
+### Music On
+![Music play](./images/music.png)
 )
 
 * When the users
 
-### Greeting message
-![ Greeting message](./images/Greeting.png)
+### Navigation
+![ navigation](./images/navigation.png)
+)
+
+* When the users
+
+### Auto-pilot
+![ autopilot](./images/autopilot.png)
+)
+
+* When the users
+
+### Fast drive
+![ fast](./images/fastspeed.png)
+)
+
+* When the users
+
+### Manual
+![ manual mode](./images/manual.png)
+)
+
+* When the users
+
+### Stop
+![ stop](./images/stop.png)
 )
 
 * When the users
