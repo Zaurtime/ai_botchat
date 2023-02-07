@@ -40,6 +40,36 @@ Autonomous Vehicle Bot AI is a Python terminal bot, which runs in the Code Insti
 )
 
 * When the users
+
+### Greeting message
+![ Greeting message](./images/Greeting.png)
+)
+
+* When the users
+
+### Seat belt
+![ Adjust Seat belt](./images/seat.png)
+)
+
+* When the users
+
+### Lights on
+![ lights on](./images/lights.png)
+)
+
+* When the users
+
+### Greeting message
+![ Greeting message](./images/Greeting.png)
+)
+
+* When the users
+
+### Greeting message
+![ Greeting message](./images/Greeting.png)
+)
+
+* When the users
 ## Creating the Heroku app
 
 When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:

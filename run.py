@@ -31,7 +31,7 @@ def message_probability(user_message, recognised_words, single_response=False, r
             has_required_words = False
             break
 
-    # Must either have the required words, or be a single response
+    # Must have required words
     if has_required_words or single_response:
         return int(percentage * 100)
     else:
