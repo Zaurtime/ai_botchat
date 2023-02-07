@@ -29,12 +29,15 @@ Autonomous Vehicle Bot AI is a Python terminal bot, which runs in the Code Insti
 
 ### Logo and Intro Message
 
-![Logo and Intro Message]()
+![Logo and Intro Message](![MAIN](https://user-images.githubusercontent.com/119350794/217307363-54a8bee1-3ac8-42e7-8ece-b5108f8e12ab.png)
+)
+)
 
 * When the users reach the website, they will see this feature. The Autonomous Vehicle Bot AI logo and the intro message are displayed here.
 
 ### Greeting message
-![ Greeting message]()
+![ Greeting message](![Greeting](https://user-images.githubusercontent.com/119350794/217307215-616a83ad-de2e-4f26-98cf-a99de7e7135d.png)
+)
 
 * When the users
 ## Creating the Heroku app
