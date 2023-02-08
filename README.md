@@ -33,67 +33,68 @@ Autonomous Vehicle Bot AI is a Python terminal bot, which runs in the Code Insti
 )
 )
 
-* When the users reach the website, they will see this feature. The Autonomous Vehicle Bot AI logo and the intro message are displayed here.
+* When the users reach the website, they will see this feature. The Autonomous Vehicle Bot AI logo and the intro message is displayed here.
 
 ### Greeting message
 ![ Greeting message](./images/Greeting.png)
 )
 
-* When the users
+* When the user uses greetings AI bot respond 
 
-### Greeting message
-![ Greeting message](./images/Greeting.png)
+### Anything
+![ anything (./images/)
 )
 
-* When the users
+* When the users ask anything AI bot respond
 
 ### Seat belt
 ![ Adjust Seat belt](./images/seat.png)
 )
 
-* When the users
+* When the users fastening seat belt AI bot respond
 
 ### Lights on
 ![ lights on](./images/lights.png)
 )
 
-* When the users
+* When the users lights on AI bot respond
 
 ### Music On
 ![Music play](./images/music.png)
 )
 
-* When the users
+* When the users play music AI bot respond
 
 ### Navigation
 ![ navigation](./images/navigation.png)
 )
 
-* When the users
+* When the users trying to find location AI bot respond
 
 ### Auto-pilot
 ![ autopilot](./images/autopilot.png)
 )
 
-* When the users
+* When the users want drive hand free AI bot respond
 
 ### Fast drive
 ![ fast](./images/fastspeed.png)
 )
 
-* When the users
+* When the users like speed racing AI bot respond
 
 ### Manual
 ![ manual mode](./images/manual.png)
 )
 
-* When the users
+* When the users decide drive them self AI bot respond
 
 ### Stop
 ![ stop](./images/stop.png)
 )
 
-* When the users
+* When the users want to brake AI bot respond
+
 ## Creating the Heroku app
 
 When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
@@ -103,13 +104,7 @@ When you create the app, you will need to add two buildpacks from the _Settings_
 
 You must then create a _Config Var_ called `PORT`. Set this to `8000`
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
 Connect your GitHub repository and deploy as normal.
 
-## Constraints
+## 
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
