@@ -42,7 +42,7 @@ Autonomous Vehicle Bot AI is a Python terminal bot, which runs in the Code Insti
 * When the user uses greetings AI bot respond 
 
 ### Anything
-![ anything (./)
+![ anything](./images/anything.png)
 )
 
 * When the users ask anything AI bot respond
