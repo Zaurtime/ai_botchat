@@ -189,3 +189,15 @@ Not one left.Bugs free AI
 6. Change the current working directory to the location that you want the cloned directory
 7. Type git clone and paste the URL copied in step 3
 8. Press Enter and the project is cloned
+
+# Credits
+## Code
+* [youtube](https://www.youtube.com) python tutorials a lot of them.
+* [w3schools](https://www.w3schools.com/) was used as a general source of knowledge 
+* [codeinstitute](https://learn.codeinstitute.net) The best source to learn code
+
+## Acknowledgements
+* I would like to thank our classmate community for their endless support.
+* I would like to thank Irene Neville our class cohort facilitator for her assistance and motivation
+* Finally, I would like to thank my mentor Gareth McGirr for his guidence and feedback throughout this portfolio project.
+ 
