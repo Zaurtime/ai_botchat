@@ -9,6 +9,8 @@ Autonomous Vehicle Bot AI is a Python terminal bot, which runs in the Code Insti
 
 [Live Project Here](https://ai-auto.herokuapp.com/)
 
+[Multi device view](./images/iamresponsive.png)
+
 ## User Experience - UX
 
 ### User Stories
