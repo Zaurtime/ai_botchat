@@ -42,7 +42,7 @@ Autonomous Vehicle Bot AI is a Python terminal bot, which runs in the Code Insti
 * When the user uses greetings AI bot respond 
 
 ### Anything
-![ anything (./images/)
+![ anything (./)
 )
 
 * When the users ask anything AI bot respond
@@ -87,13 +87,13 @@ Autonomous Vehicle Bot AI is a Python terminal bot, which runs in the Code Insti
 ![ manual mode](./images/manual.png)
 )
 
-* When the users decide drive them self AI bot respond
+* When the users decide drive themselves AI bot respond and allows them 
 
 ### Stop
 ![ stop](./images/stop.png)
 )
 
-* When the users want to brake AI bot respond
+* When the users want to brake AI bot respond and stops
 
 ## Creating the Heroku app
 
