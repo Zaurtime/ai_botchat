@@ -24,6 +24,9 @@ Autonomous Vehicle Bot AI is a Python terminal bot, which runs in the Code Insti
 2. Be able to follow routine interacting daily with the vechicle, see the right letters appear once used right words.
 3. Be able to drive and stop the car and immediatly keep moving forward if it is necessary.
 
+### Flowcharts 
+![Flowcharts](./images/flowchart.png)<br>
+I spent time planning and thinking about the logic and flow behind the AI bot to ensure I had a general idea of how it could be built. I created flowcharts to assist with the logical flow. The charts were generated using [Lucidchart](https://lucid.app/) Integration and are shown below.<br>
 
 ## Features
 
