@@ -98,6 +98,13 @@ I spent time planning and thinking about the logic and flow behind the AI bot to
 
 * When the users want to brake AI bot respond and stops
 
+### Wrong command
+![random1](./images/random1.png)
+![random2](./images/random2.png)
+![random3](./images/random3.png)
+
+* When user input not related to vechicle command it can generate random answers for examples 3 above 
+
 ## Creating the Heroku app
 
 When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
