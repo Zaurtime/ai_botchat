@@ -126,3 +126,13 @@ Connect your GitHub repository and deploy as normal.
 
 ## Testing
 
+  ## Functionality 
+* The terminal has no issues and is working properly 
+* The typewriter starts typing at the right time and is working correctly 
+* The input has right behaviour and shows the user an random rephrase if the input is not correct
+* The AI bot responds without any issues after the owner of bot submits their requests
+* The AI bot runs without any issues and as expected 
+* All the options are working without any fails
+
+## Bugs 
+Not one left.Bugs free AI 
