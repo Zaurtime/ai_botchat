@@ -176,3 +176,16 @@ Not one left.Bugs free AI
 2. Click on the project to be forked
 3. Find the Fork button at the top right of the page
 4. Once you click the button the fork will be in your repository
+
+## Cloning This Project
+
+* Clone this project by following the steps:
+  
+1. Open [GitHub](https://github.com/zaurtime)
+2. Click on the project to be cloned
+3. You will be provided with three options to choose from, HTTPS, SSH, or GitHub CLI, click the clipboard icon in order to copy the URL
+4. Once you click the button the fork will be in your repository
+5. Open a new terminal
+6. Change the current working directory to the location that you want the cloned directory
+7. Type git clone and paste the URL copied in step 3
+8. Press Enter and the project is cloned
