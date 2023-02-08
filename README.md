@@ -134,7 +134,13 @@ Connect your GitHub repository and deploy as normal.
 * [PEP8](http://pep8online.com/)
     * The PEP8 was used to validate all the Python code
 
-## Testing
+# Testing
+## Lighthouse Testing
+![lighthouse](./images/lighthouse.png)
+Performance 98%
+## Manual Testing
+
+AI bot was manually tested through the heroku app to ensure it ran smoothly and without errors.
 
   ## Functionality 
 * The terminal has no issues and is working properly 
