@@ -106,5 +106,23 @@ You must then create a _Config Var_ called `PORT`. Set this to `8000`
 
 Connect your GitHub repository and deploy as normal.
 
-## 
+#### Python Packages
+
+* [Random](https://docs.python.org/3/library/random.html?highlight=random#module-random): returns a random integer to get a random word
+
+### Frameworks - Libraries - Programs Used
+
+* [Git](https://git-scm.com/)
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub
+* [GitHub](https://github.com/)
+    * GitHub is used to store the project's code after being pushed from Git
+* [Heroku](https://id.heroku.com)
+    * Heroku was used to deploy the live project
+
+* [Lucidchart](https://lucid.app/)
+    * Lucidchart was used to create the flowchart
+* [PEP8](http://pep8online.com/)
+    * The PEP8 was used to validate all the Python code
+
+## Testing
 
